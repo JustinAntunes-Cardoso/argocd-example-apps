@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 fullnameOverride: guestbook-ui
 
-replicaCount: 3
+replicaCount: 1
 
 image:
   repository: gcr.io/google_samples/gb-frontend-arm64
