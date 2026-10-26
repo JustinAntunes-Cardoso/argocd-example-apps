@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: guestbook-cm
+  namespace: default2
+data:
+	# Add application configuration as key-value pairs.
+  APP_ENV: "development"
